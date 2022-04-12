@@ -1,0 +1,29 @@
+body
+{
+    background: rgb(0, 0, 0);
+}
+
+.logo {
+    height: 80%;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 3%; 
+}
+.d-flex{
+
+    float: right;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: -3%;
+}
+#search-btn {
+    color: #f4f452;
+    border: 1px solid #3d8f23;
+    background-color: #c3cc5e;
+  }
+  
+  #search-btn:hover {
+    background-color: rgb(255, 225, 56);
+    color: rgb(111, 188, 11);
+    border: 1px solid #3d8f23;
+  }
