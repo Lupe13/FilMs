@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    padding: 150px 0px;
+    background-image: url(/assets/images/cinta_simple.png);
+    background-size: cover;
+    background-color: #b2ab11;
+}
+
+.container_footer {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.container_footer p {
+    color: black;
+    margin-top: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+    
+}
+
+@media screen and (min-width: 600px){
+    .footer {
+        padding: 15px;
+    }
+    main {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer {
+        padding: 15px;
+    }
+    main {
+        font-size: 55px;
+    }
+}
