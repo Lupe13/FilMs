@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>FilMs</title>
+
+</head>
+<body>
+
+    <header>
+        <nav id="nav" class="navbar navbar-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="logo.png" class="logo" alt="">
+            </a>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar película" aria-label="Search">
+            <button id="search-btn" class="btn btn-outline" type="submit">Buscar</button>
+          </form>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+        </header>
+    
+    <div class="description">
+        <span class="texto">FilMs es un servicio de streaming 
+            que permite a sus usuarios ver series y películas 
+            sin anuncios a través de cualquier dispositivo 
+            conectado a internet.
+        </span>
+    </div>
+
+    <nav>
+        <br>
+        <a href="/Formulario/index.html" class="nav-links">AÑADIR PELÍCULA</a>
+        <a href="/Formulario/index.html" class="nav-links">EDITAR PELÍCULA</a>
+    </nav>
+
+    <div class = "container px-4 mx-auto mt-2"> 
+        
+        <div id="grid-movies" 
+             class="grid grid-cols-4 gap-4">
+                     
+            <a href="/Popup Comancheria/#modal Comancheria" title="2016">2016
+                <br>
+                <img src = "/Carátulas/Comacheria caratula.jpg" class="movie" alt=""> 
+                <p>Comacheria</p>
+            </a>
+            
+            <a href="/Popup El rey León/#modal El rey León" title="2019">2019
+                <br>
+                <img src = "/Carátulas/El rey león caratula.jpg" class="movie" alt=""> 
+                <p>El rey león</p>
+            </a>
+       
+            <a href="/Popup Encanto/#modal Encanto" title="2021">2021
+                <br>
+                <img src = "/Carátulas/Encanto caratula.jpg" class="movie" alt=""> 
+                <p>Encanto</p>
+            </a>
+
+            <a href="/Popup El buen patrón/#modal El buen patrón" title="2021">2021
+                <br>
+                <img src = "/Carátulas/El buen patrón caratula.jpg" class="movie" alt=""> 
+                <p>El buen patrón</p>
+            </a>
+
+            <a href="/Popup El método Williams/#modal El método Williams" title="2021">2021
+                <br>
+                <img src = "/Carátulas/El método Willams caratula.jpg" class="movie" alt=""> 
+                <p>El método Willams</p>
+            </a>
+
+            <a href="/Popup Eiffel/#modal Eiffel" title="2021">2021
+                <br>
+                <img src = "/Carátulas/Eifel caratula.jpg" class="movie" alt=""> 
+                <p>Eiffel</p>
+            </a>
+
+            <a href="/Popup Ha nacido una estrella/#modal Ha nacido una estrella" title="2018">2018
+                <br>
+                <img src = "/Carátulas/Ha nacido una estrella caratula.jpg" class="movie" alt=""> 
+                <p>Ha nacido una estrella</p>
+            </a>
+
+            <a href="/Popup Maixabel/#modal Maixabel" title="2021">2021
+                <br>
+                <img src = "/Carátulas/Maixabel caratula.jpg" class="movie" alt=""> 
+                <p>Maixabel</p>
+            </a>
+            
+        </div>
+    </div>
+
+    <main id="main">
+        <section id="moviesList" style="margin-top: 100px;">
+          
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="container_footer">
+            <p>© 2022 FilMs Spain, Inc. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
