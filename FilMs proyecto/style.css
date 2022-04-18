@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.logo {
+    height: 10%;
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.container-fluid {
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.d-flex{
+    float: right;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: -3%;
+}
+
+#search-btn {
+    color: #F4F452;
+    border: 1px solid #3D8F23;
+    background-color: #C3CC5E;
+  }
+
+#search-btn:hover {
+    background-color: rgb(255, 225, 56);
+    color: rgb(111, 188, 11);
+    border: 1px solid #3D8F23;
+  }
+
+.description {
+    
+    position: relative;
+    height: 100px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.texto {
+     font-family: 'Indie Flower', cursive;
+     font-size: x-large;
+     left: 0;
+     position: absolute;
+     color : white;;
+ }
+ 
+
+/*.texto {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+    text-align: center;
+}*/
+
+nav{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    height: 70px;
+}
+
+.nav-links{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    color: #b2ab11;
+}
+
+.movie {
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+}
+
+.movie:hover{
+    cursor: pointer;
+    transform:scale(1.1) ;
+}
+
+#grid-movies{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(250px, auto);
+    text-align: center;
+    color: #E7DE17;
+}
+
+a {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    height: 70px;
+    font-size: large;
+    color: #E7DE17;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    height: 70px;
+    font-size: large;
+    color: #E7DE17;
+}
+
+body {
+    background-color: black;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background-image: url(/cinta_simple.png);
+    background-size: 300px 100px;
+    background-repeat: repeat-x;
+    background-color: #b2ab11;
+}
+
+.container_footer {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container_footer p {
+    color: black;
+    margin-top: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;   
+    text-align: center;
+}
+
+@media screen and (min-width: 600px){
+    .footer {
+        padding: 15px;
+    }
+    main {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer {
+        padding: 15px;
+    }
+    main {
+        font-size: 55px;
+    }
+}
